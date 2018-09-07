@@ -1,0 +1,36 @@
+.container {
+    width: 300px;
+    margin: 0px auto;
+    margin-top: 50px;
+}
+.buttons {
+    font-size: 0px;
+    margin-top: 10px;
+   
+}
+.buttons button {
+    width: 30%;
+    font-size: 16px;
+    box-sizing: border-box;
+   
+}
+.buttons button + button {
+   margin-left: 5%;
+}
+.images {
+    display: flex;
+    align-items: flex-start;
+    transition: transform 0.5s;
+   
+}
+.banner {
+    border: 3px solid #eee;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0px 0px 3px rgba(123, 125, 126, 0.4), 1px 1px 5px rgba(0, 0,0, 0.6);
+}
+
+.selected{
+
+    background: #fff0f5;
+}
